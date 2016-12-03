@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}トップページ{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+  <article>
+    <section class="top-section posts-section red">
+      <div class="container">
+        <div class="row">
+          <h1 class="h1">{{ article.title }}</h1>
+          <p class="post-date">記事の日付: {{ article.date|strftime('%d %B %Y') }}</p>
+          <div class="post-contents">
+            {{ article.content }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+{% endblock %}

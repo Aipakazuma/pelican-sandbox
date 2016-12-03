@@ -144,6 +144,30 @@ table {
   width: 100%;
 }
 
+.top-section.red {
+  background: #e47277;
+}
+
+.top-section.blue {
+  background: #5561f9;
+}
+
+.top-section.yellow {
+  background: #eef582;
+}
+
+.top-section.green {
+  background: #aef582;
+}
+
+.top-section.white {
+  background: #f3f3f3;
+}
+
+.top-section.black {
+  background: #88898c;
+}
+
 .center-center {
   display: -webkit-box;
   display: -webkit-flex;
@@ -151,10 +175,6 @@ table {
   display: -ms-flexbox;
   display: -moz-box;
   display: flex;
-  height: 400px;
-  max-height: 100%;
-  text-align: center;
-  background: #0ff;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -167,6 +187,34 @@ table {
   -moz-align-items: center;
   -moz-box-align: center;
   align-items: center;
+}
+
+.h1 {
+  font-size: 36px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.posts-section {
+  height: 100%;
+}
+
+.posts .post .post-link {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
 }
 
 @media screen and (max-width: 768px) {
