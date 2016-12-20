@@ -40,6 +40,3 @@ DEFAULT_PAGINATION = 10
 # Specify name of a built-in theme
 theme_dir_name = os.path.normpath(os.path.join(base, 'themes/commander-aipa'))
 THEME = theme_dir_name
-
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets']
