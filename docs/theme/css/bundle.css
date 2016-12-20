@@ -1,0 +1,230 @@
+/* 
+Eric Meyer's CSS Reset
+http://meyerweb.com/eric/tools/css/reset/
+v1.0 | 20080212
+CSSresetr.com
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing=0' in the markup */
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: ' ';
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.top-section {
+  width: 100%;
+}
+
+.top-section.red {
+  background: #e47277;
+}
+
+.top-section.blue {
+  background: #5561f9;
+}
+
+.top-section.yellow {
+  background: #eef582;
+}
+
+.top-section.green {
+  background: #aef582;
+}
+
+.top-section.white {
+  background: #f3f3f3;
+}
+
+.top-section.black {
+  background: #88898c;
+}
+
+.center-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 36px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.posts-section {
+  height: 100%;
+}
+
+.posts .post .post-link {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: none;
+    max-width: initial;
+  }
+
+  .row {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
